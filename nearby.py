@@ -5,7 +5,7 @@ import zipcodes
 import random
 
 # Starting variables
-gmaps = googlemaps.Client(key="") # Enter your key here
+gmaps = googlemaps.Client(key="")
 choices = ['food', 'mexican', 'italian', 'american', 'pizza', 'fast food', 'indian', 'chinese', 'brunch']
 all_locations = []
 
