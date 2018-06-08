@@ -1,11 +1,12 @@
-import googlemaps
+ import googlemaps
 import time
 import re
 import zipcodes
 import random
+import config
 
 # Starting variables
-gmaps = googlemaps.Client(key="")
+gmaps = googlemaps.Client(key=config.api_key)
 choices = ['food', 'mexican', 'italian', 'american', 'pizza', 'fast food', 'indian', 'chinese', 'brunch']
 all_locations = []
 
